@@ -5,22 +5,27 @@ int getIntValue() {
     // Declare a variable var_int of type int and set its value to 10.
     int var_int = 10;
     return var_int;
-    //677
+    
     
 }
 
 float getFloatValue() {
     // Declare a variable var_float of type float and set its value to 10.75.
     //return var_float;
+    float var_int = 10.75;
+    return var_int;
 }
 
 char getCharValue() {
     // Declare a variable var_char of type character and set its value to A.
     //return var_char;
+    char var_char = 'A';
+    return var_char;
 }
 
 int convertFloatToInt(float value) {
     // convert value to int.
+    return static_cast <int>(value);
     return value;
 }
 
@@ -31,6 +36,7 @@ Formula:
     Celsius = (Fahrenheit - 32) * 5 / 9
 */
 float fahrenheitToCelsius(float fahrenheit) {
+    float celsius = (fahrenheit - 32) * 5 / 9 ;
     //return celsius;
 
 }
